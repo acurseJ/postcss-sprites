@@ -1,5 +1,5 @@
 {
-  "name": "postcss-sprites",
+  "name": "postcss-sprites-without-svg",
   "version": "4.2.1",
   "description": "Generate spritesheets from stylesheets",
   "main": "lib/index.js",
@@ -10,8 +10,7 @@
     "spritesheet",
     "spritesmith",
     "sprite",
-    "png",
-    "svg"
+    "png"
   ],
   "scripts": {
     "test": "./node_modules/.bin/ava test/*.js --verbose --serial",
@@ -37,8 +36,7 @@
     "fs-extra": "^0.26.4",
     "lodash": "^4.0.0",
     "postcss": "^5.0.14",
-    "spritesmith": "^3.0.1",
-    "svg-sprite": "^1.3.5"
+    "spritesmith": "^3.0.1"
   },
   "typings": "./typings.d.ts"
 }
